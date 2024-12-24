@@ -7,27 +7,27 @@ generate_random_string() {
 
 
 # first passage to change files names, to stop collisions in renames
-for file in $(ls -1v ./*); do
-    file_name=$(basename "$file");
-    if [ $file_name != "reorder_files.sh" ]; then
-        # Call the function and store the result in a variable
-        random_string=$(generate_random_string)
-        # change file name
-        mv ./$file_name "./${file_name}_${random_string}"
-    fi
-done
+# for file in $(ls -1v ./*); do
+#     file_name=$(basename "$file");
+#     if [ $file_name != "reorder_files.sh" ]; then
+#         # Call the function and store the result in a variable
+#         random_string=$(generate_random_string)
+#         # change file name
+#         mv ./$file_name "./${file_name}_${random_string}"
+#     fi
+# done
  
 index=0
 for file in $(ls -1v ./*); do
 
     file_name=$(basename "$file");
     if [ $file_name != "reorder_files.sh" ]; then
-        new_file_name="${index}.json"
-        next_index=$((index + 1))
-        next_file_name="{{home}}/${next_index}.json"
-        # Specify the string to replace and the replacement string
-        original_string='"next_level":[^,]*,'
-        replacement_string="\"next_level\":\"${next_file_name}\","
+        # new_file_name="${index}.json"
+        # next_index=$((index + 1))
+        # next_file_name="{{home}}/${next_index}.json"
+        # # Specify the string to replace and the replacement string
+        original_string='{{home}}/'
+        replacement_string="https://raw.githubusercontent.com/gametesis/second-set-community-levels/refs/heads/main/"
 
         # Use sed to replace the string in the file
         sed -i "s#$original_string#$replacement_string#g" "$file"

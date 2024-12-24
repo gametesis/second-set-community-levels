@@ -53,7 +53,7 @@
     "add_powers": false,
     "map_edge_type": "normal",
     "edge_distance": 100,
-    "next_level":"{{home}}/4.json",
+    "next_level":"https://raw.githubusercontent.com/gametesis/second-set-community-levels/refs/heads/main/4.json",
     "slow_time": "0.5",
     "slow_time_duration": "1",
     "size_power": "20",
