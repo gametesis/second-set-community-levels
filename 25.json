@@ -2021,7 +2021,7 @@
         "y": 1666
     },
     "min_score_to_win": 7300,
-    "time_limit": 5,
+    "time_limit": 15,
     "acceleration": 12,
     "max_speed": 250,
     "zoom_value": 20,
