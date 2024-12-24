@@ -723,7 +723,7 @@
     "add_powers": true,
     "map_edge_type": "deadly",
     "edge_distance": 30,
-    "next_level":"{{home}}/50.json",
+    "next_level":"https://raw.githubusercontent.com/gametesis/second-set-community-levels/refs/heads/main/50.json",
     "slow_time": "0.5",
     "slow_time_duration": "1",
     "size_power": "20",

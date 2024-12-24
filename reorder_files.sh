@@ -27,15 +27,15 @@ for file in $(ls -1v ./*); do
         # next_file_name="{{home}}/${next_index}.json"
         # # Specify the string to replace and the replacement string
         original_string='{{home}}/'
-        replacement_string="https://raw.githubusercontent.com/gametesis/second-set-community-levels/refs/heads/main/"
+        replacement_string='https://raw.githubusercontent.com/gametesis/second-set-community-levels/refs/heads/main/'
 
         # Use sed to replace the string in the file
         sed -i "s#$original_string#$replacement_string#g" "$file"
 
         # change file name
-        mv ./$file_name ./$new_file_name
+        # mv ./$file_name ./$new_file_name
 
-        echo "$file_name $new_file_name $replacement_string";
-        ((index++))
+        # echo "$file_name $new_file_name $replacement_string";
+        # ((index++))
     fi
 done

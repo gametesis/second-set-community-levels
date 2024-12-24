@@ -433,7 +433,7 @@
     "add_powers": true,
     "map_edge_type": "deadly",
     "edge_distance": 100,
-    "next_level":"{{home}}/39.json",
+    "next_level":"https://raw.githubusercontent.com/gametesis/second-set-community-levels/refs/heads/main/39.json",
     "slow_time": "0.4",
     "slow_time_duration": "30",
     "size_power": "50",
