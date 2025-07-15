@@ -120,11 +120,11 @@
         "x": 2777,
         "y": 2777
     },
-    "min_score_to_win": 10,
+    "min_score_to_win": 13,
     "time_limit": 20,
-    "max_speed": 250,
-    "acceleration": 12,
-    "zoom_value": 12,
+    "max_speed": 400,
+    "acceleration": 33,
+    "zoom_value": 20,
     "add_powers": false,
     "map_edge_type": "deadly",
     "edge_distance": 300,
@@ -134,5 +134,6 @@
     "size_power": "20",
     "size_power_duration": "1",
     "speed_power": "2",
-    "speed_power_duration": "1"
+    "speed_power_duration": "1",
+    "space_background":{}
 }
