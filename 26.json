@@ -27,8 +27,8 @@
     },
     "min_score_to_win": 100,
     "time_limit": 5,
-    "max_speed": 250,
-    "acceleration": 12,
+    "max_speed": 350,
+    "acceleration": 20,
     "zoom_value": 20,
     "add_powers": false,
     "map_edge_type": "deadly",
@@ -39,5 +39,10 @@
     "size_power": "20",
     "size_power_duration": "1",
     "speed_power": "2",
-    "speed_power_duration": "3"
+    "speed_power_duration": "3",
+    "space_background": {
+        "p_size": 0.3,
+        "number_of_particles": 100,
+        "collisions":false
+    }
 }
