@@ -45,11 +45,7 @@
             "y": 2078,
             "object_code": "white_ball"
         },
-        "2081:2084": {
-            "x": 2081,
-            "y": 2084,
-            "object_code": "black_ball"
-        },
+        
         "2089:2083": {
             "x": 2089,
             "y": 2083,
@@ -71,9 +67,9 @@
         "y": 2083
     },
     "min_score_to_win": 6,
-    "time_limit": null,
-    "max_speed": 250,
-    "acceleration": 12,
+    "time_limit": 30,
+    "max_speed": 350,
+    "acceleration": 25,
     "zoom_value": 35,
     "add_powers": false,
     "map_edge_type": "deadly",
@@ -84,5 +80,11 @@
     "size_power": "20",
     "size_power_duration": "1",
     "speed_power": "2",
-    "speed_power_duration": "1"
+    "speed_power_duration": "1",
+    "space_background": {
+        "p_size": 0.3,
+        "impact_force": 1,
+        "number_of_particles": 100,
+        "collisions":true
+    }
 }
