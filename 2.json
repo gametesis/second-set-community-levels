@@ -36,10 +36,10 @@
         "y": 2777
     },
     "min_score_to_win": 4,
-    "time_limit": null,
-    "max_speed": 250,
-    "acceleration": 12,
-    "zoom_value": 20,
+    "time_limit": 10,
+    "max_speed": 400,
+    "acceleration": 35,
+    "zoom_value": 25,
     "add_powers": false,
     "map_edge_type": "normal",
     "edge_distance": 200,
@@ -49,5 +49,11 @@
     "size_power": "20",
     "size_power_duration": "1",
     "speed_power": "2",
-    "speed_power_duration": "1"
+    "speed_power_duration": "1",
+    "space_background": {
+        "p_size": 0.3,
+        "impact_force": 1,
+        "number_of_particles": 200,
+        "collisions":true
+    }
 }
