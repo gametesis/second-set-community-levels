@@ -1,9 +1,9 @@
 {
     "map": {
-        "1925:1921": {
-            "x": 1925,
-            "y": 1921,
-            "object_code": "red_ball"
+        "1926:1922": {
+            "x": 1926,
+            "y": 1922,
+            "object_code": "red_dash"
         },
         "1925:1918": {
             "x": 1925,
@@ -14,6 +14,11 @@
             "x": 1926,
             "y": 1910,
             "object_code": "green_ball"
+        },
+         "1926:1904": {
+            "x": 1926,
+            "y": 1904,
+            "object_code": "black_ball"
         },
         "1927:1904": {
             "x": 1927,
@@ -32,8 +37,8 @@
     },
     "min_score_to_win": 10,
     "time_limit": 10,
-    "acceleration": 12,
-    "max_speed": 250,
+    "acceleration": 28,
+    "max_speed": 350,
     "zoom_value": 30,
     "add_powers": false,
     "map_edge_type": "deadly",
@@ -44,5 +49,11 @@
     "size_power": "20",
     "size_power_duration": "1",
     "speed_power": "2",
-    "speed_power_duration": "1"
+    "speed_power_duration": "1",
+    "space_background": {
+        "p_size": 0.3,
+        "impact_force": 1,
+        "number_of_particles": 100,
+        "collisions":true
+    }
 }
