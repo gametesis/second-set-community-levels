@@ -3987,8 +3987,8 @@
     },
     "min_score_to_win": 130,
     "time_limit": 30,
-    "max_speed": 300,
-    "acceleration": 20,
+    "max_speed": 350,
+    "acceleration": 25,
     "zoom_value": 20,
     "add_powers": false,
     "map_edge_type": "normal",
@@ -3999,5 +3999,6 @@
     "size_power": "20",
     "size_power_duration": "1",
     "speed_power": "2",
-    "speed_power_duration": "1"
+    "speed_power_duration": "1",
+    "space_background":{}
 }
